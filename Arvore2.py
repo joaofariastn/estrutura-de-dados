@@ -40,7 +40,7 @@ def depth_of_tree(root):
         right_depth = depth_of_tree(root.right)
         return max(left_depth, right_depth) + 1
 
-profundidade = depth_of_tree(root)
+profundidade = depth_of_tree(root) -1
 print("\nProfundidade da árvore:", profundidade)
 
 def encontrar_nos_folhas(root):
